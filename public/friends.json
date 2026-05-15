@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Ariana Mitchell",
+    "picture": "https://randomuser.me/api/portraits/women/45.jpg",
+    "email": "ariana.mitchell@example.com",
+    "days_since_contact": 18,
+    "status": "Overdue",
+    "tags": ["FAMILY"],
+    "bio": "Met during university orientation. We still plan hiking trips every winter break.",
+    "goal": 14,
+    "next_due_date": "2026-05-18"
+  },
+  {
+    "id": 2,
+    "name": "Daniel Carter",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "daniel.carter@example.com",
+    "days_since_contact": 6,
+    "status": "On-track",
+    "tags": ["WORK"],
+    "bio": "Former office teammate who now trains for marathons and shares fitness tips.",
+    "goal": 10,
+    "next_due_date": "2026-05-22"
+  },
+  {
+    "id": 3,
+    "name": "Sophie Nguyen",
+    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "email": "sophie.nguyen@example.com",
+    "days_since_contact": 11,
+    "status": "Almost due",
+    "tags": ["HOBBY", "TRAVEL"],
+    "bio": "We met during a backpacking trip in Thailand and still exchange travel photos regularly.",
+    "goal": 12,
+    "next_due_date": "2026-05-16"
+  },
+  {
+    "id": 4,
+    "name": "Marcus Rivera",
+    "picture": "https://randomuser.me/api/portraits/men/51.jpg",
+    "email": "marcus.rivera@example.com",
+    "days_since_contact": 22,
+    "status": "Overdue",
+    "tags": ["FAMILY"],
+    "bio": "Longtime neighbor who hosts weekly online gaming sessions with friends.",
+    "goal": 15,
+    "next_due_date": "2026-05-10"
+  },
+  {
+    "id": 5,
+    "name": "Emily Watson",
+    "picture": "https://randomuser.me/api/portraits/women/29.jpg",
+    "email": "emily.watson@example.com",
+    "days_since_contact": 3,
+    "status": "On-track",
+    "tags": ["WORK"],
+    "bio": "Joined the same local book club and often discuss mystery novels over coffee.",
+    "goal": 14,
+    "next_due_date": "2026-05-27"
+  },
+  {
+    "id": 6,
+    "name": "Rafiul Karim",
+    "picture": "https://randomuser.me/api/portraits/men/76.jpg",
+    "email": "rafiul.karim@example.com",
+    "days_since_contact": 13,
+    "status": "Almost due",
+    "tags": ["HOBBY", "TRAVEL"],
+    "bio": "School friend who organizes weekend football matches and community events.",
+    "goal": 14,
+    "next_due_date": "2026-05-15"
+  },
+  {
+    "id": 7,
+    "name": "Isabella Rossi",
+    "picture": "https://randomuser.me/api/portraits/women/14.jpg",
+    "email": "isabella.rossi@example.com",
+    "days_since_contact": 9,
+    "status": "On-track",
+    "tags": ["FAMILY"],
+    "bio": "Collaborated on freelance design projects and still exchange creative feedback often.",
+    "goal": 14,
+    "next_due_date": "2026-05-20"
+  },
+  {
+    "id": 8,
+    "name": "Noah Bennett",
+    "picture": "https://randomuser.me/api/portraits/men/18.jpg",
+    "email": "noah.bennett@example.com",
+    "days_since_contact": 16,
+    "status": "Overdue",
+    "tags": ["WORK"],
+    "bio": "Met at a startup networking event. He gives practical advice on business growth and leadership.",
+    "goal": 12,
+    "next_due_date": "2026-05-12"
+  },
+  {
+    "id": 9,
+    "name": "Olivia Turner",
+    "picture": "https://randomuser.me/api/portraits/women/63.jpg",
+    "email": "olivia.turner@example.com",
+    "days_since_contact": 7,
+    "status": "On-track",
+    "tags": ["FAMILY"],
+    "bio": "Cousin who loves arranging family dinners and weekend outings together.",
+    "goal": 10,
+    "next_due_date": "2026-05-24"
+  },
+  {
+    "id": 10,
+    "name": "Ethan Brooks",
+    "picture": "https://randomuser.me/api/portraits/men/41.jpg",
+    "email": "ethan.brooks@example.com",
+    "days_since_contact": 12,
+    "status": "Almost due",
+    "tags": ["HOBBY", "TRAVEL"],
+    "bio": "Travel partner from a photography workshop who enjoys exploring new cities.",
+    "goal": 14,
+    "next_due_date": "2026-05-17"
+  }
+]
