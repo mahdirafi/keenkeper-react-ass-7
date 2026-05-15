@@ -8,7 +8,28 @@ import App from "./App";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
+    element: <Root />,
+    children: [
+      {
+        index: true,
+        element: <Home />,
+        loader: () => fetch("/friends.json"),
+      },
+      {
+        path: 'ProfileDetails/:id',
+        element: <ProfileDetails />,
+        loader: () => fetch('/friends.json')
+      },
+      {
+        path: '/timeline',
+        element: <Timeline />
+      },
+      {
+        path: '/stats',
+        element: <Stats />
+      }
+    ],
+    errorElement: <ErrorPage />,
   },
 ]);
 
