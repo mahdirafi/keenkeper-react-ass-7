@@ -8,6 +8,7 @@ import Timeline from "./Pages/Home/Timeline";
 import Root from "./Layout/Root";
 import Home from "./Pages/Home/Home";
 import Stats from "./Pages/Home/Stats";
+import ProfileDetails from "./Profile/ProfileDetails";
 
 const router = createBrowserRouter([
   {

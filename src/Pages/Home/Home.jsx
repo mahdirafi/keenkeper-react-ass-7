@@ -1,6 +1,7 @@
 import { PuffLoader } from "react-spinners";
 import Banner from "../../Components/HomePages/Banner";
 import { useLoaderData } from "react-router";
+import ProfileSection from "../../Profile/ProfileSection";
 
 const Home = () => {
   const profileData = useLoaderData();
