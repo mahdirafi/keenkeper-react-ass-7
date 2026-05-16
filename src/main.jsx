@@ -5,6 +5,10 @@ import './index.css'
  
 import Root from "./Layout/Root";
 import Home from "./Pages/Home/Home";
+import ProfileDetails from "./Profile/ProfileDetails";
+import Timeline from "./Pages/Home/Timeline";
+import TimelineProvider from "./context/TimelineContext";
+import { ToastContainer } from "react-toastify";
  
  
 
@@ -17,7 +21,20 @@ const router = createBrowserRouter([
         index: true,
         element: <Home />,
         loader: () => fetch("/friends.json"),
-      }
+      },
+      {
+        path: 'ProfileDetails/:id',
+        element: <ProfileDetails />,
+        loader: () => fetch('/friends.json')
+      },
+      {
+        path: '/timeline',
+        element: <Timeline />
+      },
+      // {
+      //   path: '/stats',
+      //   element: <Stats />
+      // }
        
     ],
     
@@ -28,10 +45,9 @@ const root = document.getElementById("root");
 
 ReactDOM.createRoot(root).render(
     
-     
+      <TimelineProvider>
       <RouterProvider router={router} />
-       
-    
-  
+      <ToastContainer />
+    </TimelineProvider>
   
 );
