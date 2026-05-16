@@ -1,14 +1,21 @@
-import NavBar from '../components/shared/NavBar';
-import Footer from '../components/shared/Footer';
-import { Outlet } from 'react-router';
+import { Outlet } from "react-router";
+import NavBar from "../Components/Shared/NavBar";
+import Footer from "../Components/Shared/Footer";
+ 
+
+ 
+ 
 
 const Root = () => {
-    return (<>
-                    <NavBar/>
-                <div className='w-11/12 mx-auto'>
-                    <Outlet/>
-                </div>
-                    <Footer/>
+    return (<> 
+             <NavBar/>
+            <div>
+                <Outlet/>
+            </div>
+            <Footer/>
+
+
+
             </>
     );
 };

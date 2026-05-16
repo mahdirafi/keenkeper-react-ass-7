@@ -1,22 +1,15 @@
-import { PuffLoader } from "react-spinners";
 import Banner from "../../Components/HomePages/Banner";
-import { useLoaderData } from "react-router";
-import ProfileSection from "../../Profile/ProfileSection";
+
+ 
+ 
+ 
 
 const Home = () => {
-  const profileData = useLoaderData();
+  
 
   return (
     <div>
-      <Banner />
-
-      {profileData ? (
-        <ProfileSection profileData={profileData} />
-      ) : (
-        <div className="flex items-center justify-center h-screen">
-          <PuffLoader color="#36d7b7" size={80} />
-        </div>
-      )}
+      <Banner/>
     </div>
   );
 };
