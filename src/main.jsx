@@ -10,6 +10,7 @@ import Timeline from "./Pages/Home/Timeline";
 import TimelineProvider from "./context/TimelineContext";
 import { ToastContainer } from "react-toastify";
 import Stats from "./Pages/Home/Stats";
+import ErrorPage from "./Pages/Home/ErrorPage";
  
  
 
@@ -38,6 +39,7 @@ const router = createBrowserRouter([
       }
        
     ],
+    errorElement: <ErrorPage />,
     
   },
 ]);
