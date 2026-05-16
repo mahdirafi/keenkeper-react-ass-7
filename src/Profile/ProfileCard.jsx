@@ -3,7 +3,7 @@ import { Link } from "react-router";
  
 const ProfileCard = ({profile}) => {
 
-     const statusColors = {
+  const statusColors = {
     Overdue: "bg-[#EF4444] text-white",
     "Almost due": "bg-[#EFAD44] text-white",
     "On-track": "bg-[#244D3F] text-white",
