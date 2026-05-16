@@ -6,7 +6,7 @@ A React-based personal relationship manager that helps you track interactions wi
 
 ## 🚀 Live Demo
 
-> Deploy link here (Netlify / Vercel / Firebase)
+> [Deploy link here](https://keenkeeper-react-7.netlify.app/) 
 
 ---
 
