@@ -167,4 +167,3 @@ If you want to take this even further, next step would be:
 ![Home Page](image.png)
  
 
-Say the word and I’ll upgrade it again 👍
