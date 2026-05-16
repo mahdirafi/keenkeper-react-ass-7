@@ -9,6 +9,7 @@ import ProfileDetails from "./Profile/ProfileDetails";
 import Timeline from "./Pages/Home/Timeline";
 import TimelineProvider from "./context/TimelineContext";
 import { ToastContainer } from "react-toastify";
+import Stats from "./Pages/Home/Stats";
  
  
 
@@ -31,10 +32,10 @@ const router = createBrowserRouter([
         path: '/timeline',
         element: <Timeline />
       },
-      // {
-      //   path: '/stats',
-      //   element: <Stats />
-      // }
+      {
+        path: '/stats',
+        element: <Stats />
+      }
        
     ],
     
